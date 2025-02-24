@@ -452,7 +452,7 @@ header .book a img {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #EEEEEE;
+  background-color: #fff;
   width: 65%;
   content: '';
 }
@@ -484,17 +484,17 @@ header .book a img {
 .form-box .f-group textarea,.form-box .f-group select {
   width: 100%;
   padding: 13px 20px;
-  border: 1px solid #1AC5E2;
+  border: 1px solid #000;
   margin-top: 20px;
   font-weight: 600;
-  color: #1AC5E2;
+  color: #000;
   outline: none;
   background-color: transparent;
 }
 
 .form-box .f-group input::placeholder,
 .form-box .f-group textarea::placeholder {
-  color: #1AC5E2;
+  color: #000;
 }
 
 .form-box .sec-btn {
