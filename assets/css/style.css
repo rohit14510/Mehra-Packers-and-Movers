@@ -108,9 +108,9 @@ ul.slick-dots {
 }
 
 .sec-btn:hover {
-  background-color: #1F2ADE;
+  background-color: #6F07BD;
   color: #fff;
-  border: 1px solid #1F2ADE;
+  border: 1px solid #6F07BD;
 }
 
 .sec-btn:hover::after,
@@ -176,11 +176,11 @@ header {
 }
 
 .top-left ul li a {
-  background-color: #1F2ADE;
+  background-color: #6F07BD;
 }
 
 .top-left ul li a:hover {
-  color: #1F2ADE;
+  color: #6F07BD;
   background-color: #fff;
   border-radius: 20%;
 }
@@ -222,7 +222,7 @@ header .book a img {
 .menu {
   position: relative;
   overflow-x: clip;
-  background-color: #1F2ADE;
+  background-color: #6F07BD;
 }
 
 .menu .navbar-brand {
@@ -330,7 +330,7 @@ header .book a img {
 
 .hero-slide {
   padding-top: 130px;
-  background-image: linear-gradient(#070707e2, #1F2ADE7a), url(../images/hero2.jpg);
+  background-image: linear-gradient(#070707e2, #6F07BD7a), url(../images/hero2.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -347,7 +347,7 @@ header .book a img {
 }
 
 .hero-two {
-  background-image: linear-gradient(#070707ea, #1F2ADEc9), url(../images/hero1.jpg);
+  background-image: linear-gradient(#070707ea, #6F07BDc9), url(../images/hero1.jpg);
 }
 
 /* ---Hero-Section-End--- */
@@ -372,7 +372,7 @@ header .book a img {
 }
 
 .choose-section .g-md-0:nth-child(1) .ch-box {
-  background-color: #1F2ADE;
+  background-color: #6F07BD;
   color: #fff;
 }
 
@@ -452,7 +452,7 @@ header .book a img {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #1F2ADE;
+  background-color: #EEEEEE;
   width: 65%;
   content: '';
 }
@@ -476,6 +476,7 @@ header .book a img {
 }
 
 .quote-section .form-box h2 {
+  color: #1AC5E2;
   font-size: 40px;
 }
 
@@ -483,17 +484,17 @@ header .book a img {
 .form-box .f-group textarea,.form-box .f-group select {
   width: 100%;
   padding: 13px 20px;
-  border: 1px solid #fff;
+  border: 1px solid #1AC5E2;
   margin-top: 20px;
   font-weight: 600;
-  color: #fff;
+  color: #1AC5E2;
   outline: none;
   background-color: transparent;
 }
 
 .form-box .f-group input::placeholder,
 .form-box .f-group textarea::placeholder {
-  color: #fff;
+  color: #1AC5E2;
 }
 
 .form-box .sec-btn {
@@ -506,7 +507,7 @@ header .book a img {
 
 .form-box .f-group select {
   padding: 12px 20px;
-  background-color:#1F2ADE;
+ 
 }
 
 /* ----Quote-Section-End---- */
@@ -565,12 +566,12 @@ header .book a img {
   height:100%;
   text-align: center;
   border: 3px double #1AC5E2;
-  box-shadow: 0px 10px 20px 0px #1F2ADE18;
+  box-shadow: 0px 10px 20px 0px #6F07BD18;
 }
 
 .cont-box:hover {
-  background-color: #1F2ADE;
-  border-color:#1F2ADE ;
+  background-color: #6F07BD;
+  border-color:#6F07BD ;
   color: #fff;
 }
 
@@ -578,7 +579,7 @@ header .book a img {
   font-size: 45px;
   margin-top: 10px;
   font-weight: 500;
-  color: #1F2ADE;
+  color: #6F07BD;
   position: relative;
   line-height: 30px;
 }
@@ -611,7 +612,7 @@ header .book a img {
 /* ---Service-Section-Start---- */
 
 .service-section {
-  background-image: linear-gradient(#1F2ADEd4, #1F2ADEd4), url(../images/service.jpg);
+  background-image: linear-gradient(#6F07BDd4, #6F07BDd4), url(../images/service.jpg);
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
@@ -769,7 +770,7 @@ header .book a img {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #1F2ADE;
+  background-color: #6F07BD;
   transition: .4s;
   content: "";
 }
@@ -883,7 +884,7 @@ header .book a img {
   position: relative;
   padding: 50px 20px 20px;
   background-color: #fff;
-  box-shadow: 0px 5px 10px 5px #1F2ADE14;
+  box-shadow: 0px 5px 10px 5px #6F07BD14;
 }
 
 .tes-box .tes-item .tes-quote {
@@ -914,7 +915,7 @@ header .book a img {
   position: relative;
   margin-top: 10px;
   background-color: #fff;
-  box-shadow: 0px 5px 10px 4px #1F2ADE14;
+  box-shadow: 0px 5px 10px 4px #6F07BD14;
 }
 
 .tes-box:hover .tes-info {
@@ -954,7 +955,7 @@ header .book a img {
 .tes-box .tes-info .text h5 {
   margin-bottom: 0;
   font-weight: 600;
-  color: #1F2ADE;
+  color: #6F07BD;
 }
 
 /* ---Testimonial-Section-End----- */
@@ -964,7 +965,7 @@ header .book a img {
 
 .footer-section {
   padding-top: 30px;
-  background-color: #1F2ADE;
+  background-color: #6F07BD;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -1107,14 +1108,14 @@ header .book a img {
 }
 
 .footer-section .copy-right p a {
-  color: #1F2ADE;
+  color: #6F07BD;
   font-weight: 600;
 }
 
 .footer-section .map {
   height: 100%;
   border-radius: 10px;
-  box-shadow: 0px 10px 20px 0px #1F2ADE36;
+  box-shadow: 0px 10px 20px 0px #6F07BD36;
   margin-top: 20px;
 }
 
@@ -1157,7 +1158,7 @@ header .book a img {
 }
 
 .banner-title ul li a:hover {
-  color: #1F2ADE;
+  color: #6F07BD;
 }
 
 /* ---Banner-Section-End--- */
@@ -1173,7 +1174,7 @@ header .book a img {
 .mission-section .ms-box {
   background-color: #fff;
   padding: 30px;
-  box-shadow: 0px 10px 10px 0px #1F2ADE1b;
+  box-shadow: 0px 10px 10px 0px #6F07BD1b;
   position: relative;
   transition: .5s;
 }
@@ -1345,7 +1346,7 @@ header .book a img {
   }
 
   .menu .navbar-toggler {
-    border: 2px solid #1F2ADE;
+    border: 2px solid #6F07BD;
   }
 
   .menu .navbar-toggler-icon {
@@ -1375,7 +1376,7 @@ header .book a img {
   .menu .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 0px;
     font-weight: 600;
-    color: #1F2ADE;
+    color: #6F07BD;
   }
 
   .menu .navbar-expand-lg .navbar-nav .nav-link::before {

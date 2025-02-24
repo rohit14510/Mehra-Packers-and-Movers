@@ -10,6 +10,8 @@ require 'PHPMailer/PHPMailer/SMTP.php';
 // Create an instance of PHPMailer class 
 
 if(isset($_POST['submit'])) {
+    // print_r('hii');
+    // die();
         $name = $_POST['name'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
@@ -28,11 +30,11 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@aggarwalpackersmover.com', 'Aggarwal Packers Movers And Logistics'); 
-$mail->addReplyTo('info@aggarwalpackersmover.com', 'Test Email'); 
+$mail->setFrom('info@mehrapackersandmovers.com', 'Mehra Packers and Movers'); 
+$mail->addReplyTo('info@mehrapackersandmovers.com', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('aggarwalpackers002@gmail.com'); 
+$mail->addAddress('mehrapackersandmovers@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
@@ -55,7 +57,7 @@ $mailContent = '
     <p>Service :'.$service.'</p>
     <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
-    <p>Aggarwal Packers Movers And Logistics</p>';  
+    <p>Mehra Packers and Movers</p>';  
 // $mailContent = "Name : ".$name."\n"."Subject : ".$subject."\n"."Email : ".$email."\n"."Mbile : ".$mobile."\n"."Message :".$message; 
 $mail->Body = $mailContent; 
 $mail->headers  = "From: Sender Name <standupstartups1@gmail.com>" . "\r\n";
@@ -66,7 +68,7 @@ $mail->headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 if(!$mail->send()){ ?>
     <script>
     alert("Message could not be sent");
-    window.location.href="https://aggarwalpackersmover.com/thanks.html";
+    window.location.href="https://mehrapackersandmovers.com/thanks.html";
     </script>
     // 
     <?php
@@ -78,7 +80,7 @@ if(!$mail->send()){ ?>
              
             //   if( $_GET['status'] == 'success') {
             //      alert("Mail Send Successfully");
-                 window.location.href="https://aggarwalpackersmover.com/thanks.html";
+                 window.location.href="https://mehrapackersandmovers.com/thanks.html";
             //   }
             //   else{
             //       echo 'alert("no good");';
