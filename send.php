@@ -34,7 +34,7 @@ $mail->setFrom('info@mehrapackersandmovers.com', 'Mehra Packers and Movers');
 $mail->addReplyTo('info@mehrapackersandmovers.com', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('mehrapackersandmovers@gmail.com'); 
+$mail->addAddress('mehrapackersmovers@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
